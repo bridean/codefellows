@@ -9,14 +9,6 @@ $("#cb01").click(function() {
 	
 	});
 	
-	/* http://stackoverflow.com/questions/19057513/toggling-an-image-src-with-jquery */
-	
-	/*$("#cb01").click(function() {
-		$(this).attr("src", "images/cb01-checked.jpg");
-	});
-	*/
-	
-
 
 $("#cb02").click(function() {	
 	 if ($(this).attr('src') == 'images/cb02.jpg') {
@@ -117,18 +109,14 @@ $("#cb12").click(function() {
 	
 	});
 
-
-/*  SAVED FOR IN CASE MISTAKE HAS BEEN MADE
-	$("h1").click(function() {
-		$("#cb01").attr("src", "images/cb01-checked.jpg");
-	});
-*/
-
-
-/*
-  $("h1").click(function() {
-    $("h2").fadeTo(700, 0.0);
-  });
-  */
   
 });
+
+	/* http://stackoverflow.com/questions/19057513/toggling-an-image-src-with-jquery */
+	
+	/*$("#cb01").click(function() {
+		$(this).attr("src", "images/cb01-checked.jpg");
+	});
+	*/
+	
+
