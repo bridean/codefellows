@@ -1,64 +1,121 @@
 $(document).ready(function() {
 	
-	$("#cb01").click(function() {
+$("#cb01").click(function() {	
+	 if ($(this).attr('src') == 'images/cb01.jpg') {
+        $(this).attr('src', 'images/cb01-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb01-checked.jpg') {
+        $(this).attr('src', 'images/cb01.jpg');
+    }
+	
+	});
+	
+	/* http://stackoverflow.com/questions/19057513/toggling-an-image-src-with-jquery */
+	
+	/*$("#cb01").click(function() {
 		$(this).attr("src", "images/cb01-checked.jpg");
-		
-/*		function(){this.src = this.src.replace("01","01-checked");},
-          function(){this.src = this.src.replace("01-checked","01");}
-		
-		 var audio = {};
-        audio["walk"] = new Audio();
-        audio["walk"].src = "scratch.wav"
-        audio["walk"].addEventListener('load', function () {
-            audio["walk"].play();
-            });
-		*/
+	});
+	*/
+	
+
+
+$("#cb02").click(function() {	
+	 if ($(this).attr('src') == 'images/cb02.jpg') {
+        $(this).attr('src', 'images/cb02-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb02-checked.jpg') {
+        $(this).attr('src', 'images/cb02.jpg');
+    }
+	
 	});
 
-	$("#cb02").click(function() {
-		$(this).attr("src", "images/cb02-checked.jpg");
+$("#cb03").click(function() {	
+	 if ($(this).attr('src') == 'images/cb03.jpg') {
+        $(this).attr('src', 'images/cb03-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb03-checked.jpg') {
+        $(this).attr('src', 'images/cb03.jpg');
+    }
+	
 	});
 
-	$("#cb03").click(function() {
-		$(this).attr("src", "images/cb03-checked.jpg");
+$("#cb04").click(function() {	
+	 if ($(this).attr('src') == 'images/cb04.jpg') {
+        $(this).attr('src', 'images/cb04-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb04-checked.jpg') {
+        $(this).attr('src', 'images/cb04.jpg');
+    }
+	
+	});
+	
+$("#cb05").click(function() {	
+	 if ($(this).attr('src') == 'images/cb05.jpg') {
+        $(this).attr('src', 'images/cb05-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb05-checked.jpg') {
+        $(this).attr('src', 'images/cb05.jpg');
+    }
+	
+	});
+	
+$("#cb06").click(function() {	
+	 if ($(this).attr('src') == 'images/cb06.jpg') {
+        $(this).attr('src', 'images/cb06-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb06-checked.jpg') {
+        $(this).attr('src', 'images/cb06.jpg');
+    }
+	
 	});
 
-	$("#cb04").click(function() {
-		$(this).attr("src", "images/cb04-checked.jpg");
+$("#cb07").click(function() {	
+	 if ($(this).attr('src') == 'images/cb07.jpg') {
+        $(this).attr('src', 'images/cb07-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb07-checked.jpg') {
+        $(this).attr('src', 'images/cb07.jpg');
+    }
+	
 	});
-
-	$("#cb05").click(function() {
-		$(this).attr("src", "images/cb05-checked.jpg");
+	
+$("#cb08").click(function() {	
+	 if ($(this).attr('src') == 'images/cb08.jpg') {
+        $(this).attr('src', 'images/cb08-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb08-checked.jpg') {
+        $(this).attr('src', 'images/cb08.jpg');
+    }
+	
 	});
-
-	$("#cb06").click(function() {
-		$(this).attr("src", "images/cb06-checked.jpg");
+	
+$("#cb09").click(function() {	
+	 if ($(this).attr('src') == 'images/cb09.jpg') {
+        $(this).attr('src', 'images/cb09-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb09-checked.jpg') {
+        $(this).attr('src', 'images/cb09.jpg');
+    }
+	
 	});
-
-	$("#cb07").click(function() {
-		$(this).attr("src", "images/cb07-checked.jpg");
+	
+$("#cb10").click(function() {	
+	 if ($(this).attr('src') == 'images/cb10.jpg') {
+        $(this).attr('src', 'images/cb10-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb10-checked.jpg') {
+        $(this).attr('src', 'images/cb10.jpg');
+    }
+	
 	});
-
-	$("#cb08").click(function() {
-		$(this).attr("src", "images/cb08-checked.jpg");
+	
+$("#cb11").click(function() {	
+	 if ($(this).attr('src') == 'images/cb11.jpg') {
+        $(this).attr('src', 'images/cb11-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb11-checked.jpg') {
+        $(this).attr('src', 'images/cb11.jpg');
+    }
+	
 	});
-
-	$("#cb09").click(function() {
-		$(this).attr("src", "images/cb09-checked.jpg");
+	
+$("#cb12").click(function() {	
+	 if ($(this).attr('src') == 'images/cb12.jpg') {
+        $(this).attr('src', 'images/cb12-checked.jpg');
+    } else if ($(this).attr('src') == 'images/cb12-checked.jpg') {
+        $(this).attr('src', 'images/cb12.jpg');
+    }
+	
 	});
-
-	$("#cb10").click(function() {
-		$(this).attr("src", "images/cb10-checked.jpg");
-	});
-
-	$("#cb11").click(function() {
-		$(this).attr("src", "images/cb11-checked.jpg");
-	});
-
-	$("#cb12").click(function() {
-		$(this).attr("src", "images/cb12-checked.jpg");
-	});
-
 
 
 /*  SAVED FOR IN CASE MISTAKE HAS BEEN MADE
